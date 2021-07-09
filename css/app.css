@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.rigth{
+    margin-left: 1500px;
+}
+.rigth1{
+    margin-left: 1350px;
+}
+a{
+    color:#222222;
+    text-decoration: none;
+}
+.btn{
+    padding: 9px;
+    color: #fff;
+    background-color: #4486f8;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content{
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail{
+    text-align: center;
+}
+.search{
+    padding: 15px;
+    border-radius: 50px;
+    width: 600px;
+    border: 1px solid #dad9d9;
+    margin: 30px;
+    background-position: 10px 10px;
+    background-image: url("../img/outline_search_black_24dp.png");
+    background-repeat: no-repeat;
+}
+.google-search{
+    padding: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    color: #222222;
+}
+.feeling-lucky{
+    padding: 10px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    color: #222222;
+    margin-left: 10px;
+
+}
+.search:hover{
+    box-shadow: 0px 2px 5px 1px rgba(242,242,242,0.7);
+}

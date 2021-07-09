@@ -52,7 +52,8 @@ a{
     border-radius: 50px;
     width: 600px;
     border: 1px solid #dad9d9;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-position: 10px 10px;
     background-image: url("../img/outline_search_black_24dp.png");
     background-repeat: no-repeat;
